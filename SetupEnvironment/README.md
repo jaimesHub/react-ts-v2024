@@ -10,6 +10,9 @@
 4. Git: Tạo repo trên github để quản lý source code
 
 ## 2. Folder structure when using CRA
+- [CRA](https://create-react-app.dev/docs/getting-started)
+- `cd setup-env`
+- `npm start`
 
 ## How to use prettier & eslint
 
