@@ -15,6 +15,21 @@
 - `npm start`
 
 ## How to use prettier & eslint
+- Setting on VSCode
+- `.editorconfig` file
+- `.prettierrc` file
+- Installing `devDependencies` for supporting eslint & prettier on terminal
+   - `npm i prettier eslint-plugin-prettier eslint-config-prettier -D`
+- `.eslintrc` for setting eslint
+- Adding scripts to package.json
+   - `npm run lint`: Kiểm tra lỗi eslint
+   - `npm run lint:fix`: Fix lỗi liên quan eslint (đôi lúc có những lỗi bạn phải tự fix bằng tay)
+   - `npm run prettier`: Kiểm tra lỗi prettier format
+   - `npm run prettier:fix`: Tự fix lỗi prettier format
+
+- Adding `.prettierignore`, `.eslintignore` for ignore files which you do not want to `prettier` or `eslint`
+   - Same as `.gitignore`
+   - `GitCanban.md`
 
 ## Setting CI/CD for deploying
 
