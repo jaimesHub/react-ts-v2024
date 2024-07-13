@@ -14,7 +14,7 @@
 - `cd setup-env`
 - `npm start`
 
-## How to use prettier & eslint
+## 3. How to use prettier & eslint
 - Setting on VSCode
 - `.editorconfig` file
 - `.prettierrc` file
